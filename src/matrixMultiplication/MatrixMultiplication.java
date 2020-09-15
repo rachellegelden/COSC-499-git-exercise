@@ -57,10 +57,20 @@ public class MatrixMultiplication {
 		// Sample data - case 1: uneven matrices
 		int [][] matrix1 = {{1, 2,3}, {4,5,6}};
 		int [][] matrix2 = {{7, 8}, {9, 10}, {11, 12}};
-		
-		int [][] multipliedMatrix = multiplyMatrices(matrix1, matrix2);
 
-		printMatrix(multipliedMatrix);
+		int [][] matrix3 = {{3, 3}, {4, 4}};
+		int [][] matrix4 = {{5, 5}, {6, 6}};
+
+		int [][] matrix5 = {{ 1, 1}};
+		int [][] matrix6 = {{3}, {4}, {5}};
+		
+		int [][] multipliedMatrix1 = multiplyMatrices(matrix1, matrix2);
+		int [][] multipliedMatrix2 = multiplyMatrices(matrix3, matrix4);
+		int [][] multipliedMatrix3 = multiplyMatrices(matrix5, matrix6);
+
+		printMatrix(multipliedMatrix1);
+		printMatrix(multipliedMatrix2);
+		printMatrix(multipliedMatrix3);
 	}
 
 }
