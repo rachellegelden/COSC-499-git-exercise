@@ -2,7 +2,7 @@ package matrixMultiplication;
 
 public class MatrixMultiplication {
 	
-	public static boolean validateMatricesForMultiplication(int[][] matrix1, int[][] matrix2) {
+	private static boolean validateMatricesForMultiplication(int[][] matrix1, int[][] matrix2) {
 		
 		// number of columns in first matrix is equal to number of rows in the second matrix
 		int matrix1ColumnsLength = matrix1[0].length;
