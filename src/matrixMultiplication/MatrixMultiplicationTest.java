@@ -22,7 +22,6 @@ public class MatrixMultiplicationTest {
 		assertArrayEquals(matrixProduct, expectedMatrixProduct);
 	}
 	
-	// case 2: invalid matrix multiplication
 	@Test
 	public void multiplyMatricesShouldNotMultiplyInvalidMatrices() {
 		// expected result
