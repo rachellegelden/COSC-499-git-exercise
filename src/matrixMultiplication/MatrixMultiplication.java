@@ -67,6 +67,7 @@ public class MatrixMultiplication {
 		int [][] multipliedMatrix2 = multiplyMatrices(matrix3, matrix4);
 		int [][] multipliedMatrix3 = multiplyMatrices(matrix5, matrix6);
 
+		// print matrices
 		printMatrix(multipliedMatrix1);
 		printMatrix(multipliedMatrix2);
 		printMatrix(multipliedMatrix3);
